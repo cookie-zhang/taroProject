@@ -1,0 +1,16 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "taroProject",
+	"description": "taro 实战",
+	"appid": "wx1a5c77f69e55e258",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}
