@@ -1,0 +1,54 @@
+.topicsList-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .leftDrawerContanier{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:-100%;
+        .leftMenu{
+            float: left;
+            width:50%;
+            height: 100%;
+            background: #ffffff;
+        }
+        .rightMenuOver{
+            float: right;
+            width:50%;
+            height: 100%;
+            background: rgba(0, 0, 0,0.5);
+        }
+    }
+    .leftDrawerContanierActive{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: background 2s ease,transform 2s ease-in 1s;
+        .leftMenu{
+            float: left;
+            width:50%;
+            height: 100%;
+            background: #ffffff;
+        }
+        .rightMenuOver{
+            float: right;
+            width:50%;
+            height: 100%;
+            background: rgba(0, 0, 0,0.5);
+        }
+    }
+   .img-menu, .img-head{
+    width: 28PX;
+    height: 28PX;
+   }
+   .img-menu{
+    margin-left: 10PX;
+   }
+   .img-head{
+    margin-right: 10PX;
+   }
+}
