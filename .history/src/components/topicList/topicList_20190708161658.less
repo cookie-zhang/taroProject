@@ -1,0 +1,44 @@
+.topicListContanier{
+    width: 100%;
+    padding: 10PX 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14PX;
+    .imgContanier{
+        width: 10%;
+        .topicImage{
+            width: 50PX;
+            height: 50PX;
+            min-width: 50px;
+            border-radius: 50%;
+        }
+    }
+    .topicRight{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-left: 20PX;
+        .topicRightTop{
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            .top{
+                width: 40PX;
+                min-width: 40px;
+                text-align: center;
+                color: palevioletred;
+            }
+            .topTitle{
+                font-weight: 700;
+            }
+        }
+        .topicRightBot{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: #808080;
+        }
+    }
+}
